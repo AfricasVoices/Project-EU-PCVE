@@ -1,0 +1,772 @@
+{
+  "SchemeID": "Scheme-fffffc6e",
+  "Name": "WS - Correct Dataset",
+  "Version": "0.0.0.7",
+  "Codes": [
+    {
+      "CodeID": "code-652137c5",
+      "CodeType": "Normal",
+      "DisplayText": "EU-PCVE s01e01",
+      "StringValue": "eu_pcve_s01e01",
+      "NumericValue": 68,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "eu pcve s01e01"
+      ]
+    },
+    {
+      "CodeID": "code-70ac05ab",
+      "CodeType": "Normal",
+      "DisplayText": "age",
+      "StringValue": "age",
+      "NumericValue": 1,
+      "VisibleInCoda": true,
+      "MatchValues":  [
+        "age"
+      ]
+    },
+    {
+      "CodeID": "code-6774cedd",
+      "CodeType": "Normal",
+      "DisplayText": "gender",
+      "StringValue": "gender",
+      "NumericValue": 2,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "gender"
+      ]
+    },
+    {
+      "CodeID": "code-dda6e4b4",
+      "CodeType": "Normal",
+      "DisplayText": "location",
+      "StringValue": "location",
+      "NumericValue": 3,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "location"
+      ]
+    },
+    {
+      "CodeID": "code-c2ef3b7f",
+      "CodeType": "Normal",
+      "DisplayText": "recently displaced",
+      "StringValue": "recently displaced",
+      "NumericValue": 4,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "recently displaced"
+      ]
+    },
+    {
+      "CodeID": "code-cd9eeed9",
+      "CodeType": "Normal",
+      "DisplayText": "in idp camp",
+      "StringValue": "in idp camp",
+      "NumericValue": 5,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "in idp camp"
+      ]
+    },
+    {
+      "CodeID": "code-e053ab04",
+      "CodeType": "Normal",
+      "DisplayText": "livelihood",
+      "StringValue": "livelihood",
+      "NumericValue": 41,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "livelihood"
+      ]
+    },
+    {
+      "CodeID": "code-3e722885",
+      "CodeType": "Normal",
+      "DisplayText": "children in school",
+      "StringValue": "children_in_school",
+      "NumericValue": 54,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "children in school"
+      ]
+    },
+    {
+      "CodeID": "code-87ec1cb8",
+      "CodeType": "Normal",
+      "DisplayText": "household language",
+      "StringValue": "household language",
+      "NumericValue": 6,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "hh language",
+        "household language"
+      ]
+    },
+    {
+      "CodeID": "code-9bd0f2b1",
+      "CodeType": "Normal",
+      "DisplayText": "s01e01",
+      "StringValue": "s01e01",
+      "NumericValue": 7,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "s01e01"
+      ]
+    },
+    {
+      "CodeID": "code-9a5f15d6",
+      "CodeType": "Normal",
+      "DisplayText": "s01e02",
+      "StringValue": "s01e02",
+      "NumericValue": 8,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "s01e02"
+      ]
+    },
+    {
+      "CodeID": "code-e8621530",
+      "CodeType": "Normal",
+      "DisplayText": "s01e03",
+      "StringValue": "s01e03",
+      "NumericValue": 9,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "s01e03"
+      ]
+    },
+    {
+      "CodeID": "code-f7a875ee",
+      "CodeType": "Normal",
+      "DisplayText": "s01e04",
+      "StringValue": "s01e04",
+      "NumericValue": 10,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "s01e04"
+      ]
+    },
+    {
+      "CodeID": "code-4dc91858",
+      "CodeType": "Normal",
+      "DisplayText": "s02e01",
+      "StringValue": "s02e01",
+      "NumericValue": 11,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "s02e01"
+      ]
+    },
+    {
+      "CodeID": "code-93ae8d7f",
+      "CodeType": "Normal",
+      "DisplayText": "s02e02",
+      "StringValue": "s02e02",
+      "NumericValue": 12,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "s02e02"
+      ]
+    },
+    {
+      "CodeID": "code-d321aaf7",
+      "CodeType": "Normal",
+      "DisplayText": "s02e03",
+      "StringValue": "s02e03",
+      "NumericValue": 13,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "s02e03"
+      ]
+    },
+    {
+      "CodeID": "code-adc56730",
+      "CodeType": "Normal",
+      "DisplayText": "s02e04",
+      "StringValue": "s02e04",
+      "NumericValue": 14,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "s02e04"
+      ]
+    },
+    {
+      "CodeID": "code-f216169d",
+      "CodeType": "Normal",
+      "DisplayText": "s02e05",
+      "StringValue": "s02e05",
+      "NumericValue": 15,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "s02e05"
+      ]
+    },
+    {
+      "CodeID": "code-015a26ae",
+      "CodeType": "Normal",
+      "DisplayText": "s02e06",
+      "StringValue": "s02e06",
+      "NumericValue": 16,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "s02e06"
+      ]
+    },
+    {
+      "CodeID": "code-c88d935a",
+      "CodeType": "Normal",
+      "DisplayText": "s03e01 bossaso",
+      "StringValue": "s03e01 bossaso",
+      "NumericValue": 17,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "s03e01 bossaso"
+      ]
+    },
+    {
+      "CodeID": "code-877c8799",
+      "CodeType": "Normal",
+      "DisplayText": "s03e02 bossaso",
+      "StringValue": "s03e02 bossaso",
+      "NumericValue": 18,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "s03e02 bossaso"
+      ]
+    },
+    {
+      "CodeID": "code-d32e8d97",
+      "CodeType": "Normal",
+      "DisplayText": "s03e03 bossaso",
+      "StringValue": "s03e03 bossaso",
+      "NumericValue": 19,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "s03e03 bossaso"
+      ]
+    },
+    {
+      "CodeID": "code-d8f2ee69",
+      "CodeType": "Normal",
+      "DisplayText": "s03e04 bossaso",
+      "StringValue": "s03e04 bossaso",
+      "NumericValue": 20,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "s03e04 bossaso"
+      ]
+    },
+    {
+      "CodeID": "code-2c048169",
+      "CodeType": "Normal",
+      "DisplayText": "s03e01 baidoa",
+      "StringValue": "s03e01 baidoa",
+      "NumericValue": 21,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "s03e01 baidoa"
+      ]
+    },
+    {
+      "CodeID": "code-9036fd02",
+      "CodeType": "Normal",
+      "DisplayText": "s03e02 baidoa",
+      "StringValue": "s03e02 baidoa",
+      "NumericValue": 22,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "s03e02 baidoa"
+      ]
+    },
+    {
+      "CodeID": "code-e7285811",
+      "CodeType": "Normal",
+      "DisplayText": "s03e03 baidoa",
+      "StringValue": "s03e03 baidoa",
+      "NumericValue": 23,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "s03e03 baidoa"
+      ]
+    },
+    {
+      "CodeID": "code-15bb27cc",
+      "CodeType": "Normal",
+      "DisplayText": "s03e04 baidoa",
+      "StringValue": "s03e04 baidoa",
+      "NumericValue": 24,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "s03e04 baidoa"
+      ]
+    },
+    {
+      "CodeID": "code-ec61083c",
+      "CodeType": "Normal",
+      "DisplayText": "s04e01",
+      "StringValue": "s04e01",
+      "NumericValue": 25,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "s04e01"
+      ]
+    },
+    {
+      "CodeID": "code-097dbcfa",
+      "CodeType": "Normal",
+      "DisplayText": "s04e02",
+      "StringValue": "s04e02",
+      "NumericValue": 26,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "s04e02"
+      ]
+    },
+    {
+      "CodeID": "code-09727857",
+      "CodeType": "Normal",
+      "DisplayText": "s05e01",
+      "StringValue": "s05e01",
+      "NumericValue": 29,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "s05e01"
+      ]
+    },
+    {
+      "CodeID": "code-95db9a15",
+      "CodeType": "Normal",
+      "DisplayText": "s06e01",
+      "StringValue": "s06e01",
+      "NumericValue": 32,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "s06e01"
+      ]
+    },
+    {
+      "CodeID": "code-0da948eb",
+      "CodeType": "Normal",
+      "DisplayText": "s06e02",
+      "StringValue": "s06e02",
+      "NumericValue": 33,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "s06e02"
+      ]
+    },
+    {
+      "CodeID": "code-57f0b34a",
+      "CodeType": "Normal",
+      "DisplayText": "s07e01",
+      "StringValue": "s07e01",
+      "NumericValue": 34,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "s07e01"
+      ]
+    },
+    {
+      "CodeID": "code-1ccdaa25",
+      "CodeType": "Normal",
+      "DisplayText": "s07e02",
+      "StringValue": "s07e02",
+      "NumericValue": 35,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "s07e02"
+      ]
+    },
+    {
+      "CodeID": "code-9d20320f",
+      "CodeType": "Normal",
+      "DisplayText": "s07e03",
+      "StringValue": "s07e03",
+      "NumericValue": 36,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "s07e03"
+      ]
+    },
+    {
+      "CodeID": "code-4d50ef28",
+      "CodeType": "Normal",
+      "DisplayText": "s08e01",
+      "StringValue": "s08e01",
+      "NumericValue": 38,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "s08e01"
+      ]
+    },
+    {
+      "CodeID": "code-3c33d7fb",
+      "CodeType": "Normal",
+      "DisplayText": "s08e02",
+      "StringValue": "s08e02",
+      "NumericValue": 39,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "s08e02"
+      ]
+    },
+    {
+      "CodeID": "code-42a7b651",
+      "CodeType": "Normal",
+      "DisplayText": "s08e03",
+      "StringValue": "s08e03",
+      "NumericValue": 40,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "s08e03"
+      ]
+    },
+    {
+      "CodeID": "code-236eaee0",
+      "CodeType": "Normal",
+      "DisplayText": "s08e03 break",
+      "StringValue": "s08e03_break",
+      "NumericValue": 51,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "s08e03_break"
+      ]
+    },
+    {
+      "CodeID": "code-050049c8",
+      "CodeType": "Normal",
+      "DisplayText": "s08e04",
+      "StringValue": "s08e04",
+      "NumericValue": 63,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "s08e04"
+      ]
+    },
+    {
+      "CodeID": "code-262fa0fc",
+      "CodeType": "Normal",
+      "DisplayText": "s08e05",
+      "StringValue": "s08e05",
+      "NumericValue": 64,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "s08e05"
+      ]
+    },
+    {
+      "CodeID": "code-c9115c69",
+      "CodeType": "Normal",
+      "DisplayText": "s08e06",
+      "StringValue": "s08e06",
+      "NumericValue": 65,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "s08e06"
+      ]
+    },
+    {
+      "CodeID": "code-de134fc1",
+      "CodeType": "Normal",
+      "DisplayText": "have voice",
+      "StringValue": "have_voice",
+      "NumericValue": 27,
+      "VisibleInCoda": false,
+      "MatchValues": [
+        "have voice"
+      ]
+    },
+    {
+      "CodeID": "code-82af0326",
+      "CodeType": "Normal",
+      "DisplayText": "suggestions",
+      "StringValue": "suggestions",
+      "NumericValue": 28,
+      "VisibleInCoda": false,
+      "MatchValues": [
+        "suggestions"
+      ]
+    },
+    {
+      "CodeID": "code-ce0576ca",
+      "CodeType": "Normal",
+      "DisplayText": "responsible",
+      "StringValue": "responsible",
+      "NumericValue": 30,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "responsible"
+      ]
+    },
+    {
+      "CodeID": "code-c2cd8420",
+      "CodeType": "Normal",
+      "DisplayText": "solve problems",
+      "StringValue": "solve_problems",
+      "NumericValue": 31,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "solve problems"
+      ]
+    },
+    {
+      "CodeID": "code-c2963f98",
+      "CodeType": "Normal",
+      "DisplayText": "s07 government priority",
+      "StringValue": "s07_government_priority",
+      "NumericValue": 37,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "s07 government priority"
+      ]
+    },
+    {
+      "CodeID": "code-076e22f0",
+      "CodeType": "Normal",
+      "DisplayText": "s09e01",
+      "StringValue": "s09e01",
+      "NumericValue": 42,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "s09e01"
+      ]
+    },
+    {
+      "CodeID": "code-76017ab2",
+      "CodeType": "Normal",
+      "DisplayText": "s09e02",
+      "StringValue": "s09e02",
+      "NumericValue": 43,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "s09e02"
+      ]
+    },
+    {
+      "CodeID": "code-04413b79",
+      "CodeType": "Normal",
+      "DisplayText": "s09e03",
+      "StringValue": "s09e03",
+      "NumericValue": 44,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "s09e03"
+      ]
+    },
+    {
+      "CodeID": "code-1fe18580",
+      "CodeType": "Normal",
+      "DisplayText": "s09e03 break",
+      "StringValue": "s09e03_break",
+      "NumericValue": 45,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "s09e03 break"
+      ]
+    },
+    {
+      "CodeID": "code-0b1cce35",
+      "CodeType": "Normal",
+      "DisplayText": "s09e04",
+      "StringValue": "s09e04",
+      "NumericValue": 46,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "s09e04"
+      ]
+    },
+    {
+      "CodeID": "code-ada9931f",
+      "CodeType": "Normal",
+      "DisplayText": "s09e05",
+      "StringValue": "s09e05",
+      "NumericValue": 47,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "s09e05"
+      ]
+    },
+    {
+      "CodeID": "code-5e288e86",
+      "CodeType": "Normal",
+      "DisplayText": "s09e06",
+      "StringValue": "s09e06",
+      "NumericValue": 48,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "s09e06"
+      ]
+    },
+    {
+      "CodeID": "code-1fc8c37a",
+      "CodeType": "Normal",
+      "DisplayText": "s09e07",
+      "StringValue": "s09e07",
+      "NumericValue": 49,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "s09e07"
+      ]
+    },
+    {
+      "CodeID": "code-44794930",
+      "CodeType": "Normal",
+      "DisplayText": "s09e08",
+      "StringValue": "s09e08",
+      "NumericValue": 50,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "s09e08"
+      ]
+    },
+    {
+      "CodeID": "code-263a62e8",
+      "CodeType": "Normal",
+      "DisplayText": "s10e01",
+      "StringValue": "s10e01",
+      "NumericValue": 52,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "s10e01"
+      ]
+    },
+    {
+      "CodeID": "code-96be0028",
+      "CodeType": "Normal",
+      "DisplayText": "s10e02",
+      "StringValue": "s10e02",
+      "NumericValue": 53,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "s10e02"
+      ]
+    },
+    {
+      "CodeID": "code-4ef9de00",
+      "CodeType": "Normal",
+      "DisplayText": "s10e02 break",
+      "StringValue": "s10e02_break",
+      "NumericValue": 56,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "s10e02 break"
+      ]
+    },
+    {
+      "CodeID": "code-1a7ea68b",
+      "CodeType": "Normal",
+      "DisplayText": "s10e03",
+      "StringValue": "s10e03",
+      "NumericValue": 58,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "s10e03"
+      ]
+    },
+    {
+      "CodeID": "code-a137a1c8",
+      "CodeType": "Normal",
+      "DisplayText": "s10e04",
+      "StringValue": "s10e04",
+      "NumericValue": 59,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "s10e04"
+      ]
+    },
+    {
+      "CodeID": "code-1e3211ab",
+      "CodeType": "Normal",
+      "DisplayText": "s10e01 schools informing parents",
+      "StringValue": "s10e01_schools_informing_parents",
+      "NumericValue": 55,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "s10e01 schools informing parents"
+      ]
+    },
+    {
+      "CodeID": "code-1ca81766",
+      "CodeType": "Normal",
+      "DisplayText": "s10e02 issues in school",
+      "StringValue": "s10e02_issues_in_school",
+      "NumericValue": 57,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "s10e02 issues in school"
+      ]
+    },
+    {
+      "CodeID": "code-e0d4687d",
+      "CodeType": "Normal",
+      "DisplayText": "s08 have voice",
+      "StringValue": "s08_have_voice",
+      "NumericValue": 66,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "s08 have voice"
+      ]
+    },
+    {
+      "CodeID": "code-9f4fd804",
+      "CodeType": "Normal",
+      "DisplayText": "s08 suggestions",
+      "StringValue": "s08_suggestions",
+      "NumericValue": 67,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "s08 suggestions"
+      ]
+    },
+    {
+      "CodeID": "code-cf54f435",
+      "CodeType": "Normal",
+      "DisplayText": "s10 have voice",
+      "StringValue": "s10_have_voice",
+      "NumericValue": 60,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "s10 have voice"
+      ]
+    },
+    {
+      "CodeID": "code-b186691f",
+      "CodeType": "Normal",
+      "DisplayText": "s10 suggestions",
+      "StringValue": "s10_suggestions",
+      "NumericValue": 61,
+      "VisibleInCoda": true,
+      "MatchValues": [
+        "s10 suggestions"
+      ]
+    },
+    {
+      "CodeID": "code-NC-42f1d983",
+      "CodeType": "Control",
+      "ControlCode": "NC",
+      "DisplayText": "NC (not coded)",
+      "NumericValue": -30,
+      "StringValue": "NC",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-NR-5e3eee23",
+      "CodeType": "Control",
+      "ControlCode": "NR",
+      "DisplayText": "NR (not reviewed)",
+      "NumericValue": -40,
+      "StringValue": "NR",
+      "VisibleInCoda": false
+    },
+    {
+      "CodeID": "code-CE-016c1e22",
+      "CodeType": "Control",
+      "ControlCode": "CE",
+      "DisplayText": "CE (coding error)",
+      "NumericValue": -110,
+      "StringValue": "CE",
+      "VisibleInCoda": false
+    }
+  ]
+}
