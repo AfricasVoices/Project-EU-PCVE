@@ -51,11 +51,11 @@ if __name__ == "__main__":
     log.info("Downloading Firestore UUID Table credentials...")
     firestore_uuid_table_credentials = json.loads(google_cloud_utils.download_blob_to_string(
         google_cloud_credentials_file_path,
-        pipeline_configuration.phone_number_uuid_table.firebase_credentials_file_url
+        pipeline_configuration.uuid_table.firebase_credentials_file_url
     ))
 
     phone_number_uuid_table = FirestoreUuidTable(
-        pipeline_configuration.phone_number_uuid_table.table_name,
+        pipeline_configuration.uuid_table.table_name,
         firestore_uuid_table_credentials,
         "avf-phone-uuid-"
     )
