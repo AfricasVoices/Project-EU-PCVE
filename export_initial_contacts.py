@@ -54,9 +54,9 @@ if __name__ == "__main__":
         pipeline_configuration.uuid_table.firebase_credentials_file_url
     ))
 
-    phone_number_uuid_table = FirestoreUuidTable(
-        pipeline_configuration.uuid_table.table_name,
+    phone_number_uuid_table = FirestoreUuidTable.init_from_credentials(
         firestore_uuid_table_credentials,
+        pipeline_configuration.uuid_table.table_name,
         "avf-phone-uuid-"
     )
     log.info("Initialised the Firestore UUID table")
