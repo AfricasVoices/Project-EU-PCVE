@@ -33,8 +33,8 @@
   "RapidProKeyRemappings": [
     {"RapidProKey": "avf_phone_id", "PipelineKey": "uid"},
 
-    {"RapidProKey": "Rqa_EU_PCVE_S01E01 (Text) - csap_eu_pcve_s01e01_activation", "PipelineKey": "rqa_eu_pcve_s01e01_raw", "IsActivationMessage": true},
-    {"RapidProKey": "Rqa_Eu_PCVE_S01E01 (Run ID) - csap_eu_pcve_s01e01_activation", "PipelineKey": "rqa_eu_pcve_s01e01_run_id"},
+    {"RapidProKey": "Rqa_EU_PCVE_S01E01 (Text) - csap_eu_pcve_s01e01_activation", "PipelineKey": "rqa_s01e01_raw", "IsActivationMessage": true},
+    {"RapidProKey": "Rqa_Eu_PCVE_S01E01 (Run ID) - csap_eu_pcve_s01e01_activation", "PipelineKey": "rqa_s01e01_run_id"},
     {"RapidProKey": "Rqa_EU_PCVE_S01E01 (Time) - csap_eu_pcve_s01e01_activation", "PipelineKey": "sent_on"},
 
     {"RapidProKey": "Gender (Text) - csap_eu_pcve_demog", "PipelineKey": "gender_raw"},
