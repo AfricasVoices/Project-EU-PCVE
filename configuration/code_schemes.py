@@ -25,5 +25,6 @@ class CodeSchemes:
     SOMALIA_STATE = _open_scheme("somalia_state.json")
     SOMALIA_ZONE = _open_scheme("somalia_zone.json")
     RECENTLY_DISPLACED = _open_scheme("recently_displaced.json")
+    HOUSEHOLD_LANGUAGE = _open_scheme("household_language.json")
     
     WS_CORRECT_DATASET = _open_scheme("ws_correct_dataset.json")
