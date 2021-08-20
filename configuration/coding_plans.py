@@ -1,6 +1,6 @@
 from functools import partial
 
-from core_data_modules.cleaners import swahili, Codes
+from core_data_modules.cleaners import somali, swahili, Codes
 from core_data_modules.data_models import CodeScheme
 from core_data_modules.traced_data.util.fold_traced_data import FoldStrategies
 
@@ -33,21 +33,21 @@ def clean_district_if_no_mogadishu_sub_district(text):
 def get_rqa_coding_plans(pipeline_name):
     assert pipeline_name == "EU-PCVE"
     return [
-        CodingPlan(raw_field="rqa_s10e01_raw",
+        CodingPlan(raw_field="rqa_s01e01_raw",
                    time_field="sent_on",
-                   run_id_field="rqa_s10e01_run_id",
-                   coda_filename="EU_PCVE_rqa_s10e01.json",
-                   icr_filename="rqa_s10e01.csv",
+                   run_id_field="rqa_s01e01_run_id",
+                   coda_filename="EU_PCVE_rqa_s01e01.json",
+                   icr_filename="rqa_s01e01.csv",
                    coding_configurations=[
                        CodingConfiguration(
                            coding_mode=CodingModes.MULTIPLE,
-                           code_scheme=CodeSchemes.RQA_S10E01,
-                           coded_field="rqa_s10e01_coded",
-                           analysis_file_key="rqa_s10e01",
-                           fold_strategy=lambda x, y: FoldStrategies.list_of_labels(CodeSchemes.RQA_S10E01, x, y)
+                           code_scheme=CodeSchemes.RQA_S01E01,
+                           coded_field="rqa_s01e01_coded",
+                           analysis_file_key="rqa_s01e01",
+                           fold_strategy=lambda x, y: FoldStrategies.list_of_labels(CodeSchemes.RQA_S01E01, x, y)
                        )
                    ],
-                   ws_code=CodeSchemes.WS_CORRECT_DATASET.get_code_with_match_value("s10e01"),
+                   ws_code=CodeSchemes.WS_CORRECT_DATASET.get_code_with_match_value("s01e01"),
                    raw_field_fold_strategy=FoldStrategies.concatenate),
     ]
 
@@ -173,6 +173,10 @@ def get_demog_coding_plans(pipeline_name):
 
 
 def get_follow_up_coding_plans(pipeline_name):
+    return []
+
+
+def get_engagement_coding_plans(pipeline_name):
     return []
 
 
