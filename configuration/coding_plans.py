@@ -168,7 +168,23 @@ def get_demog_coding_plans(pipeline_name):
                        )
                    ],
                    ws_code=CodeSchemes.WS_CORRECT_DATASET.get_code_with_match_value("recently displaced"),
-                   raw_field_fold_strategy=FoldStrategies.assert_equal)
+                   raw_field_fold_strategy=FoldStrategies.assert_equal),
+
+        CodingPlan(raw_field="household_language_raw",
+                       time_field="household_language_time",
+                       coda_filename="CSAP_household_language.json",
+                       coding_configurations=[
+                           CodingConfiguration(
+                               coding_mode=CodingModes.SINGLE,
+                               code_scheme=CodeSchemes.HOUSEHOLD_LANGUAGE,
+                               cleaner=None,
+                               coded_field="household_language_coded",
+                               analysis_file_key="household_language",
+                               fold_strategy=FoldStrategies.assert_label_ids_equal
+                           )
+                       ],
+                       ws_code=CodeSchemes.WS_CORRECT_DATASET.get_code_with_match_value("household language"),
+                       raw_field_fold_strategy=FoldStrategies.assert_equal),
     ]
 
 
