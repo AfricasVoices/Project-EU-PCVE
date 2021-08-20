@@ -23,45 +23,47 @@
     }
   ],
   "ListeningGroupCSVURLs": [],
-  "PhoneNumberUuidTable": {
+  "UuidTable": {
     "FirebaseCredentialsFileURL": "gs://avf-credentials/avf-id-infrastructure-firebase-adminsdk-6xps8-b9173f2bfd.json",
-    "TableName": "ADSS"
+    "TableName": "ADSS",
+    "UuidPrefix": "avf-phone-uuid-"
   },
   "OperationsDashboard": {
     "FirebaseCredentialsFileURL": "gs://avf-credentials/avf-dashboards-firebase-adminsdk-gvecb-ef772e79b6.json"
   },
-  "RapidProKeyRemappings": [
-    {"RapidProKey": "avf_phone_id", "PipelineKey": "uid"},
+  "SourceKeyRemappings": [
+    {"SourceKey": "avf_phone_id", "PipelineKey": "uid"},
 
-    {"RapidProKey": "Rqa_EU_PCVE_S01E01 (Text) - csap_eu_pcve_s01e01_activation", "PipelineKey": "rqa_s01e01_raw", "IsActivationMessage": true},
-    {"RapidProKey": "Rqa_Eu_PCVE_S01E01 (Run ID) - csap_eu_pcve_s01e01_activation", "PipelineKey": "rqa_s01e01_run_id"},
-    {"RapidProKey": "Rqa_EU_PCVE_S01E01 (Time) - csap_eu_pcve_s01e01_activation", "PipelineKey": "sent_on"},
+    {"SourceKey": "Rqa_EU_PCVE_S01E01 (Text) - csap_eu_pcve_s01e01_activation", "PipelineKey": "rqa_s01e01_raw", "IsActivationMessage": true},
+    {"SourceKey": "Rqa_Eu_PCVE_S01E01 (Run ID) - csap_eu_pcve_s01e01_activation", "PipelineKey": "rqa_s01e01_run_id"},
+    {"SourceKey": "Rqa_EU_PCVE_S01E01 (Time) - csap_eu_pcve_s01e01_activation", "PipelineKey": "sent_on"},
 
-    {"RapidProKey": "Gender (Text) - csap_eu_pcve_demog", "PipelineKey": "gender_raw"},
-    {"RapidProKey": "Gender (Time) - csap_eu_pcve_demog", "PipelineKey": "gender_time"},
-    {"RapidProKey": "Age (Text) - csap_eu_pcve_demog", "PipelineKey": "age_raw"},
-    {"RapidProKey": "Age (Time) - csap_eu_pcve_demog", "PipelineKey": "age_time"},
-    {"RapidProKey": "Location (Text) - csap_eu_pcve_demog", "PipelineKey": "location_raw"},
-    {"RapidProKey": "Location (Time) - csap_eu_pcve_demog", "PipelineKey": "location_time"},
-    {"RapidProKey": "Recently Displaced (Text) - csap_eu_pcve_demog", "PipelineKey": "recently_displaced_raw"},
-    {"RapidProKey": "Recently Displaced (Time) - csap_eu_pcve_demog", "PipelineKey": "recently_displaced_time"}
+    {"SourceKey": "Gender (Text) - csap_eu_pcve_demog", "PipelineKey": "gender_raw"},
+    {"SourceKey": "Gender (Time) - csap_eu_pcve_demog", "PipelineKey": "gender_time"},
+    {"SourceKey": "Age (Text) - csap_eu_pcve_demog", "PipelineKey": "age_raw"},
+    {"SourceKey": "Age (Time) - csap_eu_pcve_demog", "PipelineKey": "age_time"},
+    {"SourceKey": "Location (Text) - csap_eu_pcve_demog", "PipelineKey": "location_raw"},
+    {"SourceKey": "Location (Time) - csap_eu_pcve_demog", "PipelineKey": "location_time"},
+    {"SourceKey": "Recently Displaced (Text) - csap_eu_pcve_demog", "PipelineKey": "recently_displaced_raw"},
+    {"SourceKey": "Recently Displaced (Time) - csap_eu_pcve_demog", "PipelineKey": "recently_displaced_time"}
   ],
   "ProjectStartDate": "2021-08-10T00:00:00+03:00",
   "ProjectEndDate": "2100-01-01T00:00:00+03:00",
   "FilterTestMessages": false,
   "MoveWSMessages": true,
   "AutomatedAnalysis": {
-    "GenerateCountyThemeDistributionMaps": true,
-    "GenerateConstituencyThemeDistributionMaps": true
+    "GenerateRegionThemeDistributionMaps": true,
+    "GenerateDistrictThemeDistributionMaps": true,
+    "GenerateMogadishuThemeDistributionMaps": true
   },
   "DriveUpload": {
     "DriveCredentialsFileURL": "gs://avf-credentials/pipeline-runner-service-acct-avf-data-core-64cc71459fe7.json",
-    "ProductionUploadPath": "eu-pcve_analysis_outputs/production.csv",
-    "MessagesUploadPath": "eu-pcve_analysis_outputs/messages.csv",
-    "IndividualsUploadPath": "eu-pcve_analysis_outputs/individuals.csv",
-    "AutomatedAnalysisDir": "eu-pcve_analysis_outputs/automated_analysis"
+    "ProductionUploadPath": "eu_pcve_analysis_outputs/production.csv",
+    "MessagesUploadPath": "eu_pcve_analysis_outputs/messages.csv",
+    "IndividualsUploadPath": "eu_pcve_analysis_outputs/individuals.csv",
+    "AutomatedAnalysisDir": "eu_pcve_analysis_outputs/automated_analysis"
   },
-  "MemoryProfileUploadURLPrefix": "gs://avf-pipeline-logs-performance-nearline",
-  "DataArchiveUploadURLPrefix": "gs://pipeline-execution-backup-archive",
+  "MemoryProfileUploadBucket":"gs://avf-pipeline-logs-performance-nearline",
+  "DataArchiveUploadBucket": "gs://pipeline-execution-backup-archive",
   "BucketDirPath": "2021/EU-PCVE"
 }
