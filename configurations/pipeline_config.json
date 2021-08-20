@@ -43,8 +43,8 @@
     {"RapidProKey": "Age (Time) - csap_eu_pcve_demog", "PipelineKey": "age_time"},
     {"RapidProKey": "Location (Text) - csap_eu_pcve_demog", "PipelineKey": "location_raw"},
     {"RapidProKey": "Location (Time) - csap_eu_pcve_demog", "PipelineKey": "location_time"},
-    {"RapidProKey": "Recently Displaced(Text) - csap_eu_pcve_demog", "PipelineKey": "recently_displaced_raw"},
-    {"RapidProKey": "Recently Displaced(Time) - csap_eu_pcve_demog", "PipelineKey": "recently_displaced_time"}
+    {"RapidProKey": "Recently Displaced (Text) - csap_eu_pcve_demog", "PipelineKey": "recently_displaced_raw"},
+    {"RapidProKey": "Recently Displaced (Time) - csap_eu_pcve_demog", "PipelineKey": "recently_displaced_time"}
   ],
   "ProjectStartDate": "2021-08-10T00:00:00+03:00",
   "ProjectEndDate": "2100-01-01T00:00:00+03:00",
