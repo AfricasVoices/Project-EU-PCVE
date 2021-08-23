@@ -49,7 +49,7 @@
     {"SourceKey": "Hh_Language (Text) - csap_eu_pcve_demog", "PipelineKey": "household_language_raw"},
     {"SourceKey": "Hh_Language (Time) - csap_eu_pcve_demog", "PipelineKey": "household_language_time"}
   ],
-  "ProjectStartDate": "2021-08-10T00:00:00+03:00",
+  "ProjectStartDate": "2021-08-21T00:00:00+03:00",
   "ProjectEndDate": "2100-01-01T00:00:00+03:00",
   "FilterTestMessages": false,
   "MoveWSMessages": true,
