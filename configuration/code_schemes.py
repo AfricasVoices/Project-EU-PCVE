@@ -14,7 +14,6 @@ class CodeSchemes:
 
     SOMALIA_OPERATOR = _open_scheme("somalia_operator.json")
     ENGAGEMENT_TYPE = _open_scheme("engagement_type.json")
-    HOUSEHOLD_LANGUAGE = _open_scheme("household_language.json")
     
     AGE = _open_scheme("age.json")
     AGE_CATEGORY = _open_scheme("age_category.json")
