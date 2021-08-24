@@ -66,17 +66,6 @@
     {"SourceKey": "Rqa_Eu_PCVE_S01E01 (Run ID) - csap_eu_pcve_s01e01_activation", "PipelineKey": "rqa_s01e01_run_id"},
     {"SourceKey": "Rqa_EU_PCVE_S01E01 (Time) - csap_eu_pcve_s01e01_activation", "PipelineKey": "sent_on"},
 
-    {"SourceKey": "Gender (Text) - csap_eu_pcve_demog", "PipelineKey": "gender_raw"},
-    {"SourceKey": "Gender (Time) - csap_eu_pcve_demog", "PipelineKey": "gender_time"},
-    {"SourceKey": "Age (Text) - csap_eu_pcve_demog", "PipelineKey": "age_raw"},
-    {"SourceKey": "Age (Time) - csap_eu_pcve_demog", "PipelineKey": "age_time"},
-    {"SourceKey": "Location (Text) - csap_eu_pcve_demog", "PipelineKey": "location_raw"},
-    {"SourceKey": "Location (Time) - csap_eu_pcve_demog", "PipelineKey": "location_time"},
-    {"SourceKey": "Recently Displaced (Text) - csap_eu_pcve_demog", "PipelineKey": "recently_displaced_raw"},
-    {"SourceKey": "Recently Displaced (Time) - csap_eu_pcve_demog", "PipelineKey": "recently_displaced_time"},
-    {"SourceKey": "Hh_Language (Text) - csap_eu_pcve_demog", "PipelineKey": "household_language_raw"},
-    {"SourceKey": "Hh_Language (Time) - csap_eu_pcve_demog", "PipelineKey": "household_language_time"},
-
     {"SourceKey": "Mog_Sub_District (Text) - csap_demog", "PipelineKey": "location_raw"},
     {"SourceKey": "Mog_Sub_District (Time) - csap_demog", "PipelineKey": "location_time"},
     {"SourceKey": "Gender (Text) - csap_demog", "PipelineKey": "gender_raw"},
