@@ -193,7 +193,18 @@
     {"SourceKey": "Livelihood (Text) - csap_s08_demog", "PipelineKey": "livelihood_raw"},
     {"SourceKey": "Livelihood (Time) - csap_s08_demog", "PipelineKey": "livelihood_time"},
     {"SourceKey": "Hh_Language (Text) - csap_s08_demog", "PipelineKey": "household_language_raw"},
-    {"SourceKey": "Hh_Language (Time) - csap_s08_demog", "PipelineKey": "household_language_time"}
+    {"SourceKey": "Hh_Language (Time) - csap_s08_demog", "PipelineKey": "household_language_time"},
+
+    {"SourceKey": "Gender (Text) - csap_eu_pcve_demog", "PipelineKey": "gender_raw"},
+    {"SourceKey": "Gender (Time) - csap_eu_pcve_demog", "PipelineKey": "gender_time"},
+    {"SourceKey": "Age (Text) - csap_eu_pcve_demog", "PipelineKey": "age_raw"},
+    {"SourceKey": "Age (Time) - csap_eu_pcve_demog", "PipelineKey": "age_time"},
+    {"SourceKey": "Location (Text) - csap_eu_pcve_demog", "PipelineKey": "location_raw"},
+    {"SourceKey": "Location (Time) - csap_eu_pcve_demog", "PipelineKey": "location_time"},
+    {"SourceKey": "Recently Displaced (Text) - csap_eu_pcve_demog", "PipelineKey": "recently_displaced_raw"},
+    {"SourceKey": "Recently Displaced (Time) - csap_eu_pcve_demog", "PipelineKey": "recently_displaced_time"},
+    {"SourceKey": "Hh_Language (Text) - csap_eu_pcve_demog", "PipelineKey": "household_language_raw"},
+    {"SourceKey": "Hh_Language (Time) - csap_eu_pcve_demog", "PipelineKey": "household_language_time"}
   ],
   "ProjectStartDate": "2021-08-29T00:00:00+03:00",
   "ProjectEndDate": "2100-01-01T00:00:00+03:00",
