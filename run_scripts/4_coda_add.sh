@@ -21,7 +21,6 @@ DATASETS=(
     "CSAP_gender"
     "CSAP_location"
     "CSAP_recently_displaced"
-    "CSAP_livelihood"
     "CSAP_household_language"
 )
 
