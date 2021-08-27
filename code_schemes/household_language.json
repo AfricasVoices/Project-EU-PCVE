@@ -62,9 +62,9 @@
     {
       "CodeID": "code-49087f30",
       "CodeType": "Normal",
-      "DisplayText": "other",
+      "DisplayText": "other theme",
       "NumericValue": 8,
-      "StringValue": "other",
+      "StringValue": "other_theme",
       "VisibleInCoda": true
     },
     {
@@ -146,15 +146,6 @@
       "NumericValue": -110,
       "StringValue": "CE",
       "VisibleInCoda": false
-    },
-    {
-      "CodeID": "code-PB-a434a800",
-      "CodeType": "Meta",
-      "MetaCode": "push_back",
-      "DisplayText": "meta: push back",
-      "NumericValue": -100000,
-      "StringValue": "push_back",
-      "VisibleInCoda": true
     },
     {
       "CodeID": "code-PB-a434a800",
