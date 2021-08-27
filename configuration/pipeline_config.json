@@ -190,8 +190,8 @@
     {"SourceKey": "Age (Time) - csap_eu_pcve_demog", "PipelineKey": "age_time"},
     {"SourceKey": "Location (Text) - csap_eu_pcve_demog", "PipelineKey": "location_raw"},
     {"SourceKey": "Location (Time) - csap_eu_pcve_demog", "PipelineKey": "location_time"},
-    {"SourceKey": "Recently Displaced (Text) - csap_eu_pcve_demog", "PipelineKey": "recently_displaced_raw"},
-    {"SourceKey": "Recently Displaced (Time) - csap_eu_pcve_demog", "PipelineKey": "recently_displaced_time"},
+    {"SourceKey": "Recently_Displaced (Text) - csap_eu_pcve_demog", "PipelineKey": "recently_displaced_raw"},
+    {"SourceKey": "Recently_Displaced (Time) - csap_eu_pcve_demog", "PipelineKey": "recently_displaced_time"},
     {"SourceKey": "Hh_Language (Text) - csap_eu_pcve_demog", "PipelineKey": "household_language_raw"},
     {"SourceKey": "Hh_Language (Time) - csap_eu_pcve_demog", "PipelineKey": "household_language_time"}
   ],
