@@ -49,6 +49,23 @@ def get_rqa_coding_plans(pipeline_name):
                    ],
                    ws_code=CodeSchemes.WS_CORRECT_DATASET.get_code_with_match_value("s01e01"),
                    raw_field_fold_strategy=FoldStrategies.concatenate),
+
+        CodingPlan(raw_field="rqa_s01e02_raw",
+                   time_field="sent_on",
+                   run_id_field="rqa_s01e02_run_id",
+                   coda_filename="EU_PCVE_rqa_s01e02.json",
+                   icr_filename="rqa_s01e02.csv",
+                   coding_configurations=[
+                       CodingConfiguration(
+                           coding_mode=CodingModes.MULTIPLE,
+                           code_scheme=CodeSchemes.RQA_S01E02,
+                           coded_field="rqa_s01e02_coded",
+                           analysis_file_key="rqa_s01e02",
+                           fold_strategy=lambda x, y: FoldStrategies.list_of_labels(CodeSchemes.RQA_S01E02, x, y)
+                       )
+                   ],
+                   ws_code=CodeSchemes.WS_CORRECT_DATASET.get_code_with_match_value("s01e02"),
+                   raw_field_fold_strategy=FoldStrategies.concatenate),
     ]
 
 
