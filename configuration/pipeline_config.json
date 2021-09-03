@@ -6,7 +6,8 @@
       "Domain": "textit.in",
       "TokenFileURL": "gs://avf-credentials/csap-text-it-token.txt",
       "ActivationFlowNames": [
-        "csap_eu_pcve_s01e01_activation"
+        "csap_eu_pcve_s01e01_activation",
+        "csap_eu_pcve_s01e02_activation"
       ],
       "SurveyFlowNames": [
         "csap_demog",
@@ -65,6 +66,10 @@
     {"SourceKey": "Rqa_Eu_Pcve_S01E01 (Text) - csap_eu_pcve_s01e01_activation", "PipelineKey": "rqa_s01e01_raw", "IsActivationMessage": true},
     {"SourceKey": "Rqa_Eu_Pcve_S01E01 (Run ID) - csap_eu_pcve_s01e01_activation", "PipelineKey": "rqa_s01e01_run_id"},
     {"SourceKey": "Rqa_Eu_Pcve_S01E01 (Time) - csap_eu_pcve_s01e01_activation", "PipelineKey": "sent_on"},
+
+    {"SourceKey": "Rqa_Eu_Pcve_S01E02 (Text) - csap_eu_pcve_s01e02_activation", "PipelineKey": "rqa_s01e02_raw", "IsActivationMessage": true},
+    {"SourceKey": "Rqa_Eu_Pcve_S01E02 (Run ID) - csap_eu_pcve_s01e02_activation", "PipelineKey": "rqa_s01e02_run_id"},
+    {"SourceKey": "Rqa_Eu_Pcve_S01E02 (Time) - csap_eu_pcve_s01e02_activation", "PipelineKey": "sent_on"},
 
     {"SourceKey": "Mog_Sub_District (Text) - csap_demog", "PipelineKey": "location_raw"},
     {"SourceKey": "Mog_Sub_District (Time) - csap_demog", "PipelineKey": "location_time"},
