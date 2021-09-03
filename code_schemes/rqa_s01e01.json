@@ -3,7 +3,78 @@
   "Name": "RQA S01E01",
   "Version": "0.0.0.1",
   "Codes": [
-
+    {
+      "CodeID": "code-785a37e9",
+      "CodeType": "Normal",
+      "DisplayText": "partial support for extremism",
+      "NumericValue": 1,
+      "StringValue": "partial_support_for_extremism",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-db77cff0",
+      "CodeType": "Normal",
+      "DisplayText": "extremism is wrong and bad",
+      "NumericValue": 2,
+      "StringValue": "extremism_is_wrong_and_bad",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-a8610f35",
+      "CodeType": "Normal",
+      "DisplayText": "extremism causes fear & insecurity",
+      "NumericValue": 3,
+      "StringValue": "extremism_causes_fear_and_insecurity",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-d7785739",
+      "CodeType": "Normal",
+      "DisplayText": "extremism is against the religious teachings",
+      "NumericValue": 4,
+      "StringValue": "extremism_is_against_the_religious_teachings",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-083c8e62",
+      "CodeType": "Normal",
+      "DisplayText": "need for awareness creation",
+      "NumericValue": 5,
+      "StringValue": "need_for_awareness_creation",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-7e86c02c",
+      "CodeType": "Normal",
+      "DisplayText": "violation against human rights/dignity",
+      "NumericValue": 6,
+      "StringValue": "violation_against_human_rights_or_dignity",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-3b7b2788",
+      "CodeType": "Normal",
+      "DisplayText": "extremism is caused by injustice within the community",
+      "NumericValue": 7,
+      "StringValue": "extremism_is_caused_by_injustice_within_the_community",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-3bf58114",
+      "CodeType": "Normal",
+      "DisplayText": "fight against extremism",
+      "NumericValue": 8,
+      "StringValue": "fight_against_extremism",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-7063a3fd",
+      "CodeType": "Normal",
+      "DisplayText": "other theme",
+      "NumericValue": 9,
+      "StringValue": "other_theme",
+      "VisibleInCoda": true
+    },
     {
       "CodeID": "code-NA-f93d3eb7",
       "CodeType": "Control",
