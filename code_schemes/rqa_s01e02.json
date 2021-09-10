@@ -3,7 +3,70 @@
   "Name": "RQA S01E02",
   "Version": "0.0.0.1",
   "Codes": [
-
+    {
+      "CodeID": "code-3d2ccd1e",
+      "CodeType": "Normal",
+      "DisplayText": "injustice",
+      "NumericValue": 1,
+      "StringValue": "injustice",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-7f446f90",
+      "CodeType": "Normal",
+      "DisplayText": "lack of cooperation & action",
+      "NumericValue": 2,
+      "StringValue": "lack_of_cooperation_and_action",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-cdbe9754",
+      "CodeType": "Normal",
+      "DisplayText": "ignorance/misinterpretation of the religion",
+      "NumericValue": 3,
+      "StringValue": "ignorance_or_misinterpretation_of_the_religion",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-b572ebd2",
+      "CodeType": "Normal",
+      "DisplayText": "lack of good governance",
+      "NumericValue": 4,
+      "StringValue": "lack_of_good_governance",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-d0d8d8b5",
+      "CodeType": "Normal",
+      "DisplayText": "lack of awareness",
+      "NumericValue": 5,
+      "StringValue": "lack_of_awareness",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-6d6c0247",
+      "CodeType": "Normal",
+      "DisplayText": "unemployment",
+      "NumericValue": 6,
+      "StringValue": "unemployment",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-63d9909d",
+      "CodeType": "Normal",
+      "DisplayText": "clannism and conflict",
+      "NumericValue": 7,
+      "StringValue": "clannism_and_conflict",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-3b2e47a6",
+      "CodeType": "Normal",
+      "DisplayText": "other theme",
+      "NumericValue": 8,
+      "StringValue": "other_theme",
+      "VisibleInCoda": true
+    },
     {
       "CodeID": "code-NA-f93d3eb7",
       "CodeType": "Control",
