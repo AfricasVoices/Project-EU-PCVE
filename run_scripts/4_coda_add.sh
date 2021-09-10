@@ -17,6 +17,8 @@ DATA_ROOT=$3
 DATASETS=(
     "EU_PCVE_rqa_s01e01"
     "EU_PCVE_rqa_s01e02"
+    "EU_PCVE_rqa_s01e03"
+    "EU_PCVE_rqa_s01e04"
 
     "CSAP_age"
     "CSAP_gender"
