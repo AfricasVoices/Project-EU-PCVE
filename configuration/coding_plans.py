@@ -47,7 +47,7 @@ def get_rqa_coding_plans(pipeline_name):
                            fold_strategy=lambda x, y: FoldStrategies.list_of_labels(CodeSchemes.RQA_S01E01, x, y)
                        )
                    ],
-                   ws_code=CodeSchemes.WS_CORRECT_DATASET.get_code_with_match_value("s01e01"),
+                   ws_code=CodeSchemes.WS_CORRECT_DATASET.get_code_with_match_value("eu pcve s01e01"),
                    raw_field_fold_strategy=FoldStrategies.concatenate),
 
         CodingPlan(raw_field="rqa_s01e02_raw",
@@ -64,7 +64,7 @@ def get_rqa_coding_plans(pipeline_name):
                            fold_strategy=lambda x, y: FoldStrategies.list_of_labels(CodeSchemes.RQA_S01E02, x, y)
                        )
                    ],
-                   ws_code=CodeSchemes.WS_CORRECT_DATASET.get_code_with_match_value("s01e02"),
+                   ws_code=CodeSchemes.WS_CORRECT_DATASET.get_code_with_match_value("eu pcve s01e02"),
                    raw_field_fold_strategy=FoldStrategies.concatenate),
 
         CodingPlan(raw_field="rqa_s01e03_raw",
@@ -81,7 +81,7 @@ def get_rqa_coding_plans(pipeline_name):
                            fold_strategy=lambda x, y: FoldStrategies.list_of_labels(CodeSchemes.RQA_S01E03, x, y)
                        )
                    ],
-                   ws_code=CodeSchemes.WS_CORRECT_DATASET.get_code_with_match_value("s01e03"),
+                   ws_code=CodeSchemes.WS_CORRECT_DATASET.get_code_with_match_value("eu pcve s01e03"),
                    raw_field_fold_strategy=FoldStrategies.concatenate),
 
         CodingPlan(raw_field="rqa_s01e04_raw",
@@ -98,7 +98,7 @@ def get_rqa_coding_plans(pipeline_name):
                            fold_strategy=lambda x, y: FoldStrategies.list_of_labels(CodeSchemes.RQA_S01E04, x, y)
                        )
                    ],
-                   ws_code=CodeSchemes.WS_CORRECT_DATASET.get_code_with_match_value("s01e04"),
+                   ws_code=CodeSchemes.WS_CORRECT_DATASET.get_code_with_match_value("eu pcve s01e04"),
                    raw_field_fold_strategy=FoldStrategies.concatenate),
     ]
 
