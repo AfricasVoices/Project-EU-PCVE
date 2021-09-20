@@ -3,7 +3,70 @@
   "Name": "RQA S01E03",
   "Version": "0.0.0.1",
   "Codes": [
-
+    {
+      "CodeID": "code-cbfe2766",
+      "CodeType": "Normal",
+      "DisplayText": "educate the community on extremism",
+      "NumericValue": 1,
+      "StringValue": "educate_the_community_on_extremism",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-ff7a8935",
+      "CodeType": "Normal",
+      "DisplayText": "follow and learn the teachings of islam",
+      "NumericValue": 2,
+      "StringValue": "follow_and_learn_the_teachings_of_islam",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-36b1e1a1",
+      "CodeType": "Normal",
+      "DisplayText": "stop clannism",
+      "NumericValue": 3,
+      "StringValue": "stop_clannism",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-3c00911f",
+      "CodeType": "Normal",
+      "DisplayText": "unity and collaboration between the community",
+      "NumericValue": 4,
+      "StringValue": "unity_and_collaboration_between_the_community",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-504c2552",
+      "CodeType": "Normal",
+      "DisplayText": "job creation for youth",
+      "NumericValue": 5,
+      "StringValue": "job_creation_for_youth",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-6474fbc1",
+      "CodeType": "Normal",
+      "DisplayText": "community to work with the government",
+      "NumericValue": 6,
+      "StringValue": "community_to_work_with_the_government",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-c238d27d",
+      "CodeType": "Normal",
+      "DisplayText": "stay away from or stop extremism",
+      "NumericValue": 7,
+      "StringValue": "stay_away_from_or_stop_extremism",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-063a29d3",
+      "CodeType": "Normal",
+      "DisplayText": "other theme",
+      "NumericValue": 8,
+      "StringValue": "other_theme",
+      "VisibleInCoda": true
+    },
     {
       "CodeID": "code-NA-f93d3eb7",
       "CodeType": "Control",
