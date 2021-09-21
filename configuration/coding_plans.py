@@ -30,76 +30,40 @@ def clean_district_if_no_mogadishu_sub_district(text):
         return Codes.NOT_CODED
 
 
+def make_standard_rqa_coding_plan(episode_name, code_scheme, ws_match_value):
+    return [
+        CodingPlan(
+            raw_field=f"{episode_name}_raw",
+            time_field="sent_on",
+            run_id_field=f"{episode_name}_run_id",
+            coda_filename=f"EU_PCVE_{episode_name}.json",
+            icr_filename=f"{episode_name}.csv",
+            coding_configurations=[
+                CodingConfiguration(
+                    coding_mode=CodingModes.MULTIPLE,
+                    code_scheme=code_scheme,
+                    coded_field=f"{episode_name}_coded",
+                    analysis_file_key=episode_name,
+                    fold_strategy=lambda x, y: FoldStrategies.list_of_labels(code_scheme, x, y)
+                )
+            ],
+            ws_code=CodeSchemes.WS_CORRECT_DATASET.get_code_with_match_value(ws_match_value),
+            raw_field_fold_strategy=FoldStrategies.concatenate
+        )
+    ]
+
+
 def get_rqa_coding_plans(pipeline_name):
     assert pipeline_name == "EU-PCVE"
     return [
-        CodingPlan(raw_field="rqa_s01e01_raw",
-                   time_field="sent_on",
-                   run_id_field="rqa_s01e01_run_id",
-                   coda_filename="EU_PCVE_rqa_s01e01.json",
-                   icr_filename="rqa_s01e01.csv",
-                   coding_configurations=[
-                       CodingConfiguration(
-                           coding_mode=CodingModes.MULTIPLE,
-                           code_scheme=CodeSchemes.RQA_S01E01,
-                           coded_field="rqa_s01e01_coded",
-                           analysis_file_key="rqa_s01e01",
-                           fold_strategy=lambda x, y: FoldStrategies.list_of_labels(CodeSchemes.RQA_S01E01, x, y)
-                       )
-                   ],
-                   ws_code=CodeSchemes.WS_CORRECT_DATASET.get_code_with_match_value("eu pcve s01e01"),
-                   raw_field_fold_strategy=FoldStrategies.concatenate),
-
-        CodingPlan(raw_field="rqa_s01e02_raw",
-                   time_field="sent_on",
-                   run_id_field="rqa_s01e02_run_id",
-                   coda_filename="EU_PCVE_rqa_s01e02.json",
-                   icr_filename="rqa_s01e02.csv",
-                   coding_configurations=[
-                       CodingConfiguration(
-                           coding_mode=CodingModes.MULTIPLE,
-                           code_scheme=CodeSchemes.RQA_S01E02,
-                           coded_field="rqa_s01e02_coded",
-                           analysis_file_key="rqa_s01e02",
-                           fold_strategy=lambda x, y: FoldStrategies.list_of_labels(CodeSchemes.RQA_S01E02, x, y)
-                       )
-                   ],
-                   ws_code=CodeSchemes.WS_CORRECT_DATASET.get_code_with_match_value("eu pcve s01e02"),
-                   raw_field_fold_strategy=FoldStrategies.concatenate),
-
-        CodingPlan(raw_field="rqa_s01e03_raw",
-                   time_field="sent_on",
-                   run_id_field="rqa_s01e03_run_id",
-                   coda_filename="EU_PCVE_rqa_s01e03.json",
-                   icr_filename="rqa_s01e03.csv",
-                   coding_configurations=[
-                       CodingConfiguration(
-                           coding_mode=CodingModes.MULTIPLE,
-                           code_scheme=CodeSchemes.RQA_S01E03,
-                           coded_field="rqa_s01e03_coded",
-                           analysis_file_key="rqa_s01e03",
-                           fold_strategy=lambda x, y: FoldStrategies.list_of_labels(CodeSchemes.RQA_S01E03, x, y)
-                       )
-                   ],
-                   ws_code=CodeSchemes.WS_CORRECT_DATASET.get_code_with_match_value("eu pcve s01e03"),
-                   raw_field_fold_strategy=FoldStrategies.concatenate),
-
-        CodingPlan(raw_field="rqa_s01e04_raw",
-                   time_field="sent_on",
-                   run_id_field="rqa_s01e04_run_id",
-                   coda_filename="EU_PCVE_rqa_s01e04.json",
-                   icr_filename="rqa_s01e04.csv",
-                   coding_configurations=[
-                       CodingConfiguration(
-                           coding_mode=CodingModes.MULTIPLE,
-                           code_scheme=CodeSchemes.RQA_S01E04,
-                           coded_field="rqa_s01e04_coded",
-                           analysis_file_key="rqa_s01e04",
-                           fold_strategy=lambda x, y: FoldStrategies.list_of_labels(CodeSchemes.RQA_S01E04, x, y)
-                       )
-                   ],
-                   ws_code=CodeSchemes.WS_CORRECT_DATASET.get_code_with_match_value("eu pcve s01e04"),
-                   raw_field_fold_strategy=FoldStrategies.concatenate),
+        make_standard_rqa_coding_plan("rqa_s01e01", CodeSchemes.RQA_S01E01, "eu pcve s01e01"),
+        make_standard_rqa_coding_plan("rqa_s01e02", CodeSchemes.RQA_S01E02, "eu pcve s01e02"),
+        make_standard_rqa_coding_plan("rqa_s01e03", CodeSchemes.RQA_S01E03, "eu pcve s01e03"),
+        make_standard_rqa_coding_plan("rqa_s01e04", CodeSchemes.RQA_S01E04, "eu pcve s01e04"),
+        make_standard_rqa_coding_plan("rqa_s01e05", CodeSchemes.RQA_S01E05, "eu pcve s01e05"),
+        make_standard_rqa_coding_plan("rqa_s01e06", CodeSchemes.RQA_S01E06, "eu pcve s01e06"),
+        make_standard_rqa_coding_plan("rqa_s01e07", CodeSchemes.RQA_S01E07, "eu pcve s01e07"),
+        make_standard_rqa_coding_plan("rqa_s01e08", CodeSchemes.RQA_S01E08, "eu pcve s01e08"),
     ]
 
 
