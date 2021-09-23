@@ -31,8 +31,7 @@ def clean_district_if_no_mogadishu_sub_district(text):
 
 
 def make_standard_rqa_coding_plan(episode_name, code_scheme, ws_match_value):
-    return [
-        CodingPlan(
+    return CodingPlan(
             raw_field=f"{episode_name}_raw",
             time_field="sent_on",
             run_id_field=f"{episode_name}_run_id",
@@ -50,7 +49,6 @@ def make_standard_rqa_coding_plan(episode_name, code_scheme, ws_match_value):
             ws_code=CodeSchemes.WS_CORRECT_DATASET.get_code_with_match_value(ws_match_value),
             raw_field_fold_strategy=FoldStrategies.concatenate
         )
-    ]
 
 
 def get_rqa_coding_plans(pipeline_name):
