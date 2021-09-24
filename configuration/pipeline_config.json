@@ -9,7 +9,8 @@
         "csap_eu_pcve_s01e01_activation",
         "csap_eu_pcve_s01e02_activation",
         "csap_eu_pcve_s01e03_activation",
-        "csap_eu_pcve_s01e04_activation"
+        "csap_eu_pcve_s01e04_activation",
+        "csap_eu_pcve_s01e05_activation"
       ],
       "SurveyFlowNames": [
         "csap_demog",
@@ -80,6 +81,22 @@
     {"SourceKey": "Rqa_Eu_Pcve_S01E04 (Text) - csap_eu_pcve_s01e04_activation", "PipelineKey": "rqa_s01e04_raw", "IsActivationMessage": true},
     {"SourceKey": "Rqa_Eu_Pcve_S01E04 (Run ID) - csap_eu_pcve_s01e04_activation", "PipelineKey": "rqa_s01e04_run_id"},
     {"SourceKey": "Rqa_Eu_Pcve_S01E04 (Time) - csap_eu_pcve_s01e04_activation", "PipelineKey": "sent_on"},
+    
+    {"SourceKey": "Rqa_Eu_Pcve_S01E05 (Text) - csap_eu_pcve_s01e05_activation", "PipelineKey": "rqa_s01e05_raw", "IsActivationMessage": true},
+    {"SourceKey": "Rqa_Eu_Pcve_S01E05 (Run ID) - csap_eu_pcve_s01e05_activation", "PipelineKey": "rqa_s01e05_run_id"},
+    {"SourceKey": "Rqa_Eu_Pcve_S01E05 (Time) - csap_eu_pcve_s01e05_activation", "PipelineKey": "sent_on"},
+    
+    {"SourceKey": "Rqa_Eu_Pcve_S01E06 (Text) - csap_eu_pcve_s01e06_activation", "PipelineKey": "rqa_s01e06_raw", "IsActivationMessage": true},
+    {"SourceKey": "Rqa_Eu_Pcve_S01E06 (Run ID) - csap_eu_pcve_s01e06_activation", "PipelineKey": "rqa_s01e06_run_id"},
+    {"SourceKey": "Rqa_Eu_Pcve_S01E06 (Time) - csap_eu_pcve_s01e06_activation", "PipelineKey": "sent_on"},
+    
+    {"SourceKey": "Rqa_Eu_Pcve_S01E07 (Text) - csap_eu_pcve_s01e07_activation", "PipelineKey": "rqa_s01e07_raw", "IsActivationMessage": true},
+    {"SourceKey": "Rqa_Eu_Pcve_S01E07 (Run ID) - csap_eu_pcve_s01e07_activation", "PipelineKey": "rqa_s01e07_run_id"},
+    {"SourceKey": "Rqa_Eu_Pcve_S01E07 (Time) - csap_eu_pcve_s01e07_activation", "PipelineKey": "sent_on"},
+    
+    {"SourceKey": "Rqa_Eu_Pcve_S01E08 (Text) - csap_eu_pcve_s01e08_activation", "PipelineKey": "rqa_s01e08_raw", "IsActivationMessage": true},
+    {"SourceKey": "Rqa_Eu_Pcve_S01E08 (Run ID) - csap_eu_pcve_s01e08_activation", "PipelineKey": "rqa_s01e08_run_id"},
+    {"SourceKey": "Rqa_Eu_Pcve_S01E08 (Time) - csap_eu_pcve_s01e08_activation", "PipelineKey": "sent_on"},
 
     {"SourceKey": "Mog_Sub_District (Text) - csap_demog", "PipelineKey": "location_raw"},
     {"SourceKey": "Mog_Sub_District (Time) - csap_demog", "PipelineKey": "location_time"},
