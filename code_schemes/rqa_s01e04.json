@@ -3,7 +3,54 @@
   "Name": "RQA S01E04",
   "Version": "0.0.0.1",
   "Codes": [
-
+    {
+      "CodeID": "code-de4617c3",
+      "CodeType": "Normal",
+      "DisplayText": "follow the teachings of islam",
+      "NumericValue": 1,
+      "StringValue": "follow_the_teachings_of_islam",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-7e5602ee",
+      "CodeType": "Normal",
+      "DisplayText": "create awareness for the community",
+      "NumericValue": 2,
+      "StringValue": "create_awareness_for_the_community",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-9dc193eb",
+      "CodeType": "Normal",
+      "DisplayText": "provide security for the community",
+      "NumericValue": 3,
+      "StringValue": "provide_security_for_the_community",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-e2c768cc",
+      "CodeType": "Normal",
+      "DisplayText": "community collaboration and unity",
+      "NumericValue": 4,
+      "StringValue": "community_collaboration_and_unity",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-12fbb0ce",
+      "CodeType": "Normal",
+      "DisplayText": "good governance",
+      "NumericValue": 5,
+      "StringValue": "good_governance",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-ae88524e",
+      "CodeType": "Normal",
+      "DisplayText": "other theme",
+      "NumericValue": 6,
+      "StringValue": "other_theme",
+      "VisibleInCoda": true
+    },
     {
       "CodeID": "code-NA-f93d3eb7",
       "CodeType": "Control",
