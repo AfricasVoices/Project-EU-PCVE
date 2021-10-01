@@ -3,7 +3,54 @@
   "Name": "RQA S01E05",
   "Version": "0.0.0.1",
   "Codes": [
-
+    {
+      "CodeID": "code-ed55f85e",
+      "CodeType": "Normal",
+      "DisplayText": "sensitization and awareness creation",
+      "NumericValue": 1,
+      "StringValue": "sensitization_and_awareness_creation",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-71138f5b",
+      "CodeType": "Normal",
+      "DisplayText": "community unity and cooperation",
+      "NumericValue": 2,
+      "StringValue": "community_unity_and_cooperation",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-c5633725",
+      "CodeType": "Normal",
+      "DisplayText": "cooperation with the government",
+      "NumericValue": 3,
+      "StringValue": "cooperation_with_the_government",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-daa98249",
+      "CodeType": "Normal",
+      "DisplayText": "through religion",
+      "NumericValue": 4,
+      "StringValue": "through_religion",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-a62f3766",
+      "CodeType": "Normal",
+      "DisplayText": "fair and just administration",
+      "NumericValue": 5,
+      "StringValue": "fair_and_just_administration",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-e1697b6c",
+      "CodeType": "Normal",
+      "DisplayText": "other theme",
+      "NumericValue": 6,
+      "StringValue": "other_theme",
+      "VisibleInCoda": true
+    },
     {
       "CodeID": "code-NA-f93d3eb7",
       "CodeType": "Control",
