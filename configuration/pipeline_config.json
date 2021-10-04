@@ -16,7 +16,8 @@
         "csap_eu_pcve_s01e02_activation",
         "csap_eu_pcve_s01e03_activation",
         "csap_eu_pcve_s01e04_activation",
-        "csap_eu_pcve_s01e05_activation"
+        "csap_eu_pcve_s01e05_activation",
+        "csap_eu_pcve_s01e06_activation"
       ],
       "SurveyFlowNames": [
         "csap_demog",
