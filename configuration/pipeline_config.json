@@ -105,14 +105,6 @@
     {"SourceKey": "Rqa_Eu_Pcve_S01E06 (Run ID) - csap_eu_pcve_s01e06_activation", "PipelineKey": "rqa_s01e06_run_id"},
     {"SourceKey": "Rqa_Eu_Pcve_S01E06 (Time) - csap_eu_pcve_s01e06_activation", "PipelineKey": "sent_on"},
     
-    {"SourceKey": "Rqa_Eu_Pcve_S01E07 (Text) - csap_eu_pcve_s01e07_activation", "PipelineKey": "rqa_s01e07_raw", "IsActivationMessage": true},
-    {"SourceKey": "Rqa_Eu_Pcve_S01E07 (Run ID) - csap_eu_pcve_s01e07_activation", "PipelineKey": "rqa_s01e07_run_id"},
-    {"SourceKey": "Rqa_Eu_Pcve_S01E07 (Time) - csap_eu_pcve_s01e07_activation", "PipelineKey": "sent_on"},
-    
-    {"SourceKey": "Rqa_Eu_Pcve_S01E08 (Text) - csap_eu_pcve_s01e08_activation", "PipelineKey": "rqa_s01e08_raw", "IsActivationMessage": true},
-    {"SourceKey": "Rqa_Eu_Pcve_S01E08 (Run ID) - csap_eu_pcve_s01e08_activation", "PipelineKey": "rqa_s01e08_run_id"},
-    {"SourceKey": "Rqa_Eu_Pcve_S01E08 (Time) - csap_eu_pcve_s01e08_activation", "PipelineKey": "sent_on"},
-
     {"SourceKey": "message", "PipelineKey": "recovered_raw", "IsActivationMessage": true},
     {"SourceKey": "received_on", "PipelineKey": "sent_on"},
     {"SourceKey": "run_id", "PipelineKey": "recovered_run_id"},
