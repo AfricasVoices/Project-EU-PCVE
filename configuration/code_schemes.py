@@ -16,8 +16,6 @@ class CodeSchemes:
     RQA_S01E04 = _open_scheme("rqa_s01e04.json")
     RQA_S01E05 = _open_scheme("rqa_s01e05.json")
     RQA_S01E06 = _open_scheme("rqa_s01e06.json")
-    RQA_S01E07 = _open_scheme("rqa_s01e07.json")
-    RQA_S01E08 = _open_scheme("rqa_s01e08.json")
 
     SOMALIA_OPERATOR = _open_scheme("somalia_operator.json")
     ENGAGEMENT_TYPE = _open_scheme("engagement_type.json")

@@ -59,9 +59,7 @@ def get_rqa_coding_plans(pipeline_name):
         make_standard_rqa_coding_plan("rqa_s01e03", CodeSchemes.RQA_S01E03, "eu pcve s01e03"),
         make_standard_rqa_coding_plan("rqa_s01e04", CodeSchemes.RQA_S01E04, "eu pcve s01e04"),
         make_standard_rqa_coding_plan("rqa_s01e05", CodeSchemes.RQA_S01E05, "eu pcve s01e05"),
-        make_standard_rqa_coding_plan("rqa_s01e06", CodeSchemes.RQA_S01E06, "eu pcve s01e06"),
-        make_standard_rqa_coding_plan("rqa_s01e07", CodeSchemes.RQA_S01E07, "eu pcve s01e07"),
-        make_standard_rqa_coding_plan("rqa_s01e08", CodeSchemes.RQA_S01E08, "eu pcve s01e08"),
+        make_standard_rqa_coding_plan("rqa_s01e06", CodeSchemes.RQA_S01E06, "eu pcve s01e06")
     ]
 
 

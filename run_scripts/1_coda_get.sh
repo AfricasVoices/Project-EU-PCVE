@@ -21,8 +21,6 @@ DATASETS=(
     "EU_PCVE_rqa_s01e04"
     "EU_PCVE_rqa_s01e05"
     "EU_PCVE_rqa_s01e06"
-    "EU_PCVE_rqa_s01e07"
-    "EU_PCVE_rqa_s01e08"
 
     "CSAP_age"
     "CSAP_gender"
