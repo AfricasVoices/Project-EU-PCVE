@@ -17,7 +17,9 @@
         "csap_eu_pcve_s01e03_activation",
         "csap_eu_pcve_s01e04_activation",
         "csap_eu_pcve_s01e05_activation",
-        "csap_eu_pcve_s01e06_activation"
+        "csap_eu_pcve_s01e06_activation",
+
+        "csap_eu_pcve_s01_follow_up"
       ],
       "SurveyFlowNames": [
         "csap_demog",
@@ -104,6 +106,10 @@
     {"SourceKey": "Rqa_Eu_Pcve_S01E06 (Text) - csap_eu_pcve_s01e06_activation", "PipelineKey": "rqa_s01e06_raw", "IsActivationMessage": true},
     {"SourceKey": "Rqa_Eu_Pcve_S01E06 (Run ID) - csap_eu_pcve_s01e06_activation", "PipelineKey": "rqa_s01e06_run_id"},
     {"SourceKey": "Rqa_Eu_Pcve_S01E06 (Time) - csap_eu_pcve_s01e06_activation", "PipelineKey": "sent_on"},
+
+    {"SourceKey": "Eu_Pcve_S01_Follow_Up (Text) - csap_eu_pcve_s01_follow_up", "PipelineKey": "s01_follow_up_raw", "IsActivationMessage": true},
+    {"SourceKey": "Eu_Pcve_S01_Follow_Up (Run ID) - csap_eu_pcve_s01_follow_up", "PipelineKey": "s01_follow_up_run_id"},
+    {"SourceKey": "Eu_Pcve_S01_Follow_Up (Time) - csap_eu_pcve_s01_follow_up", "PipelineKey": "sent_on"},
     
     {"SourceKey": "message", "PipelineKey": "recovered_raw", "IsActivationMessage": true},
     {"SourceKey": "received_on", "PipelineKey": "sent_on"},
