@@ -3,7 +3,70 @@
   "Name": "RQA S01E06",
   "Version": "0.0.0.1",
   "Codes": [
-
+    {
+      "CodeID": "code-402a3dea",
+      "CodeType": "Normal",
+      "DisplayText": "promote islamic practice",
+      "NumericValue": 1,
+      "StringValue": "promote_islamic_practice",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-526d50f4",
+      "CodeType": "Normal",
+      "DisplayText": "community unity and cooperation",
+      "NumericValue": 2,
+      "StringValue": "community_unity_and_cooperation",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-7546a74d",
+      "CodeType": "Normal",
+      "DisplayText": "government to strengthen peace & security",
+      "NumericValue": 3,
+      "StringValue": "government_to_strengthen_peace_&_security",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-eb3a47a0",
+      "CodeType": "Normal",
+      "DisplayText": "cooperation between the government and the community",
+      "NumericValue": 4,
+      "StringValue": "cooperation_between_the_government_and_the_community",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-64ae55dc",
+      "CodeType": "Normal",
+      "DisplayText": "government to provide support for the community",
+      "NumericValue": 5,
+      "StringValue": "government_to_provide_support_for_the_community",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-6003a6ef",
+      "CodeType": "Normal",
+      "DisplayText": "fair and just administration",
+      "NumericValue": 6,
+      "StringValue": "fair_and_just_administration",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-b30078d4",
+      "CodeType": "Normal",
+      "DisplayText": "create awareness on extremism",
+      "NumericValue": 7,
+      "StringValue": "create_awareness_on_extremism",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-fc35e82a",
+      "CodeType": "Normal",
+      "DisplayText": "other theme",
+      "NumericValue": 8,
+      "StringValue": "other_theme",
+      "VisibleInCoda": true
+    },
     {
       "CodeID": "code-NA-f93d3eb7",
       "CodeType": "Control",
