@@ -131,12 +131,12 @@ if __name__ == "__main__":
     output_csv_path = args.output_csv_path
 
     # Get messages from Rapid Pro and from the recovery csv
-    # rapid_pro_messages = get_incoming_hormuud_messages_from_rapid_pro(
-    #     google_cloud_credentials_file_path, rapid_pro_domain, rapid_pro_token_file_url,
-    #     created_after_inclusive=start_date,
-    #     created_before_exclusive=end_date,
-    # )
-    # all_rapid_pro_messages = rapid_pro_messages
+    rapid_pro_messages = get_incoming_hormuud_messages_from_rapid_pro(
+        google_cloud_credentials_file_path, rapid_pro_domain, rapid_pro_token_file_url,
+        created_after_inclusive=start_date,
+        created_before_exclusive=end_date,
+    )
+    all_rapid_pro_messages = rapid_pro_messages
 
     recovered_messages = get_incoming_hormuud_messages_from_recovery_csv(
         hormuud_csv_input_path, received_after_inclusive=start_date, received_before_exclusive=end_date
