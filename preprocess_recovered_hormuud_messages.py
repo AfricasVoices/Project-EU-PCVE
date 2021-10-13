@@ -28,9 +28,6 @@ def get_incoming_hormuud_messages_from_rapid_pro(google_cloud_credentials_file_p
 
     rapid_pro = RapidProClient(rapid_pro_domain, rapid_pro_token)
 
-    # log.info(f"Downloading all messages from Rapid Pro sent between {after} and {before}")
-    # TODO: Update RapidProTools/RapidProClient to expose before/after filters
-    # all_messages = rapid_pro.rapid_pro.get_messages(before=before, after=after).all()
     all_messages = rapid_pro.get_raw_messages(
         created_after_inclusive=created_after_inclusive,
         created_before_exclusive=created_before_exclusive,
@@ -68,6 +65,7 @@ def get_incoming_hormuud_messages_from_recovery_csv(csv_path,
     for msg in incoming_recovered_messages:
         msg["urn"] = "tel:+" + msg["Origin"]
         msg["text"] = msg["MsgContent"]
+        # Convert times with a try/catch because there are two possible formats due to the omission of ms when ms == 000
         try:
             msg["received_at"] = pytz.timezone("Africa/Mogadishu").localize(
                 datetime.strptime(msg["ReceivedAt"], "%Y/%m/%d %H:%M:%S.%f")
@@ -132,16 +130,13 @@ if __name__ == "__main__":
     timestamp_matches_log_output_csv_path = args.timestamp_matches_log_output_csv_path
     output_csv_path = args.output_csv_path
 
+    # Get messages from Rapid Pro and from the recovery csv
     rapid_pro_messages = get_incoming_hormuud_messages_from_rapid_pro(
         google_cloud_credentials_file_path, rapid_pro_domain, rapid_pro_token_file_url,
         created_after_inclusive=start_date,
         created_before_exclusive=end_date,
     )
     all_rapid_pro_messages = rapid_pro_messages
-    pickle.dump(rapid_pro_messages, open("/Users/alexander/avf_data/msgs2.p", "wb"))
-
-    # rapid_pro_messages = pickle.load(open("/Users/alexander/avf_data/msgs.p", "rb"))
-    log.info(len(rapid_pro_messages))
 
     recovered_messages = get_incoming_hormuud_messages_from_recovery_csv(
         hormuud_csv_input_path, received_after_inclusive=start_date, received_before_exclusive=end_date
@@ -162,8 +157,8 @@ if __name__ == "__main__":
 
     # Search the recovered messages for exact text matches to each of the Rapid Pro messages.
     # A Rapid Pro message matches a message in the recovery csv if:
-    # (i) the recovery csv message has no match yet,
-    # (ii) the text exactly matches, and
+    # (i)   the recovery csv message has no match yet,
+    # (ii)  the text exactly matches, and
     # (iii) the time at Hormuud differs from the time at Rapid Pro by < 5 minutes (experimental analysis of this
     # dataset showed the mean lag to be roughly 3-4 mins, with >99.99% of messages received within 4 minutes)
     log.info(f"Attempting to match the Rapid Pro messages with the recovered messages...")
