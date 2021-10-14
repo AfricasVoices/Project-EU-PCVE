@@ -4,7 +4,8 @@
     {
       "SourceType": "RecoveryCSV",
       "ActivationFlowURLs": [
-        "gs://avf-project-datasets/2021/EU-PCVE/recovered_golis_s01e03_de_identified.csv"
+        "gs://avf-project-datasets/2021/EU-PCVE/recovered_golis_s01e03_de_identified.csv",
+        "gs://avf-project-datasets/2021/EU-PCVE-Test/recovered_hormuud_s01_aug_sep_de_identified.csv"
       ]
     },
     {
@@ -78,6 +79,36 @@
       "ShowPipelineKeyToRemapTo": "rqa_s01e03_raw",
       "RangeStartInclusive": "2021-09-15T13:36:00+03:00",
       "RangeEndExclusive": "2021-09-16T09:50:00+03:00"
+    },
+    {
+      "TimeKey": "received_on",
+      "ShowPipelineKeyToRemapTo": "rqa_s01e01_raw",
+      "RangeStartInclusive": "2021-08-29T00:00:00+03:00",
+      "RangeEndExclusive": "2021-09-05T24:00:00+03:00"
+    },
+    {
+      "TimeKey": "received_on",
+      "ShowPipelineKeyToRemapTo": "rqa_s01e02_raw",
+      "RangeStartInclusive": "2021-09-05T00:00:00+03:00",
+      "RangeEndExclusive": "2021-09-12T24:00:00+03:00"
+    },
+    {
+      "TimeKey": "received_on",
+      "ShowPipelineKeyToRemapTo": "rqa_s01e03_raw",
+      "RangeStartInclusive": "2021-09-12T00:00:00+03:00",
+      "RangeEndExclusive": "2021-09-19T24:00:00+03:00"
+    },
+    {
+      "TimeKey": "received_on",
+      "ShowPipelineKeyToRemapTo": "rqa_s01e04_raw",
+      "RangeStartInclusive": "2021-09-19T00:00:00+03:00",
+      "RangeEndExclusive": "2021-09-26T24:00:00+03:00"
+    },
+    {
+      "TimeKey": "received_on",
+      "ShowPipelineKeyToRemapTo": "rqa_s01e05_raw",
+      "RangeStartInclusive": "2021-09-26T00:00:00+03:00",
+      "RangeEndExclusive": "2021-09-30T24:00:00+03:00"
     }
   ],
   "SourceKeyRemappings": [
