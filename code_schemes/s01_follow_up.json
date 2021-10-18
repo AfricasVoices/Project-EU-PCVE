@@ -3,7 +3,54 @@
   "Name": "S01 Follow-Up",
   "Version": "0.0.0.1",
   "Codes": [
-
+    {
+      "CodeID": "code-bcfc2fd1",
+      "CodeType": "Normal",
+      "DisplayText": "delays in election",
+      "NumericValue": 1,
+      "StringValue": "delays_in_election",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-b0c254da",
+      "CodeType": "Normal",
+      "DisplayText": "covid 19 and elections have diverted attention from pcve/ve",
+      "NumericValue": 2,
+      "StringValue": "covid_19_and_elections_have_diverted_attention_from_pcve_ve",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-129ecdec",
+      "CodeType": "Normal",
+      "DisplayText": "community unity and cooperation",
+      "NumericValue": 3,
+      "StringValue": "community_unity_and_cooperation",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-f1c35c45",
+      "CodeType": "Normal",
+      "DisplayText": "general impact of covid 19",
+      "NumericValue": 4,
+      "StringValue": "general_impact_of_covid_19",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-244ac3ea",
+      "CodeType": "Normal",
+      "DisplayText": "prevention against covid 19",
+      "NumericValue": 5,
+      "StringValue": "prevention_against_covid_19",
+      "VisibleInCoda": true
+    },
+    {
+      "CodeID": "code-f9425839",
+      "CodeType": "Normal",
+      "DisplayText": "other theme",
+      "NumericValue": 6,
+      "StringValue": "other_theme",
+      "VisibleInCoda": true
+    },
     {
       "CodeID": "code-NA-f93d3eb7",
       "CodeType": "Control",
