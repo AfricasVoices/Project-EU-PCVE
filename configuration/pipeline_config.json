@@ -4,6 +4,7 @@
     {
       "SourceType": "RecoveryCSV",
       "ActivationFlowURLs": [
+        "gs://avf-project-datasets/2021/EU-PCVE/recovered_golis_s01e01_de_identified.csv",
         "gs://avf-project-datasets/2021/EU-PCVE/recovered_golis_s01e03_de_identified.csv",
         "gs://avf-project-datasets/2021/EU-PCVE/recovered_hormuud_s01_aug_sep_de_identified.csv"
       ]
